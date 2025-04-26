@@ -4,12 +4,17 @@
     <div id="home">
       <HeroComponent />
     </div>
+    <div id="producto">
+      <ProductComponent />
+    </div>
   </div>
 </template>
 
 <script setup lang="ts">
 import NavbarComponent from '@/components/common/NavbarComponent.vue'
 import HeroComponent from '@/components/landing/HeroComponent.vue'
+import ProductComponent from '@/components/landing/ProductComponent.vue'
+
 
 </script>
 
