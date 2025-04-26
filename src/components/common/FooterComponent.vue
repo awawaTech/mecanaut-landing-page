@@ -2,15 +2,15 @@
   <footer class="footer">
     <div class="footer-content">
       <div class="logo-container">
-        <img src="@/assets/images/logo-white.svg" alt="Mecanet Logo" class="footer-logo" />
-        <h2 class="footer-title">Mecanet</h2>
+        <img src="@/assets/images/logo-white.svg" alt="Macanaut Logo" class="footer-logo" />
+        <h2 class="footer-title">Macanaut</h2>
       </div>
 
       <div class="footer-links">
         <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="footer-link"
           >YouTube</a
         >
-        <a href="mailto:info@mecanet.com" class="footer-link">E-mail</a>
+        <a href="mailto:info@Macanaut.com" class="footer-link">E-mail</a>
         <a
           href="https://instagram.com"
           target="_blank"
@@ -28,7 +28,7 @@
 
       <div class="footer-divider"></div>
 
-      <div class="footer-copyright">©2025 Mecanet. Derechos reservados.</div>
+      <div class="footer-copyright">©2025 Macanaut. Derechos reservados.</div>
     </div>
   </footer>
 </template>

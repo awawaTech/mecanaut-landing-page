@@ -115,8 +115,8 @@
     "subtitle": "Here we answer your most frequent questions.",
     "questions": [
       {
-        "question": "What is Mecanet and how does it help me?",
-        "answer": "Mecanet is software that organizes and automates your machinery maintenance. It prevents oversights, reduces failures, and improves control of your operation."
+        "question": "What is Macanaut and how does it help me?",
+        "answer": "Macanaut is software that organizes and automates your machinery maintenance. It prevents oversights, reduces failures, and improves control of your operation."
       },
       {
         "question": "Does the free plan have a time limit?",
@@ -133,7 +133,7 @@
     ]
   },
   "footer": {
-    "copyright": "©2025 Mecanet. All rights reserved."
+    "copyright": "©2025 Macanaut. All rights reserved."
   },
   "statistics": {
     "lessFailures": {
