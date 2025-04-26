@@ -10,13 +10,14 @@
     <div id="beneficios">
       <BenefitsComponent />
     </div>
-       <div id="planes">
+    <div id="planes">
       <PlansComponent />
     </div>
+    <div id="faq">
+      <FAQComponent />
+    </div>
 
-
-        <FooterComponent />
-
+    <FooterComponent />
   </div>
 </template>
 
@@ -26,9 +27,8 @@ import HeroComponent from '@/components/landing/HeroComponent.vue'
 import ProductComponent from '@/components/landing/ProductComponent.vue'
 import BenefitsComponent from '@/components/landing/BenefitsComponent.vue'
 import PlansComponent from '@/components/landing/PlansComponent.vue'
+import FAQComponent from '@/components/landing/FAQComponent.vue'
 import FooterComponent from '@/components/common/FooterComponent.vue'
-
-
 </script>
 
 <style scoped>
