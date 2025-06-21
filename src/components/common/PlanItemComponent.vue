@@ -1,68 +1,77 @@
 <template>
-    <div class="plan-card" :class="{ 'plan-card--dark': isDark }">
-      <div class="plan-header">
-        <h3 class="plan-title">{{ title }}</h3>
-        <div class="plan-price">
-          {{ price }}
-          <span v-if="period" class="plan-period">{{ period }}</span>
-        </div>
-      </div>
-  
-      <div class="plan-features">
-        <div v-for="(feature, index) in features" :key="index" class="feature-item">
-          <div class="feature-icon">
-            <svg
-              width="18"
-              height="18"
-              viewBox="0 0 18 18"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle
-                cx="9"
-                cy="9"
-                r="8.5"
-                :fill="isDark ? 'white' : 'var(--color-primary-1)'"
-                fill-opacity="0.15"
-                :stroke="isDark ? 'white' : 'var(--color-primary-1)'"
-              />
-              <path
-                d="M6 9L8 11L12 7"
-                :stroke="isDark ? 'white' : 'var(--color-primary-1)'"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </div>
-          <div class="feature-text">{{ feature }}</div>
-        </div>
-      </div>
-  
-      <div class="plan-action">
-        <button class="action-button" :class="{ 'action-button--dark': isDark }">
-          {{ actionText }}
-        </button>
+  <div class="plan-card" :class="{ 'plan-card--dark': isDark }">
+    <div class="plan-header">
+      <h3 class="plan-title">{{ title }}</h3>
+      <div class="plan-price">
+        {{ price }}
+        <span v-if="period" class="plan-period">{{ period }}</span>
       </div>
     </div>
-  </template>
-  
-  <script setup lang="ts">
-  interface Props {
-    title: string
-    price: string
-    period?: string
-    features: string[]
-    actionText: string
-    isDark?: boolean
-  }
-  
-  withDefaults(defineProps<Props>(), {
-    actionText: 'Acceder',
-    isDark: false,
-    period: '',
-  })
-  </script>
+
+    <div class="plan-features">
+      <div v-for="(feature, index) in features" :key="index" class="feature-item">
+        <div class="feature-icon">
+          <svg
+            width="18"
+            height="18"
+            viewBox="0 0 18 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="9"
+              cy="9"
+              r="8.5"
+              :fill="isDark ? 'white' : 'var(--color-primary-1)'"
+              fill-opacity="0.15"
+              :stroke="isDark ? 'white' : 'var(--color-primary-1)'"
+            />
+            <path
+              d="M6 9L8 11L12 7"
+              :stroke="isDark ? 'white' : 'var(--color-primary-1)'"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+        <div class="feature-text">{{ feature }}</div>
+      </div>
+    </div>
+
+    <div class="plan-action">
+      <button 
+      target="_blank"
+        class="action-button" 
+        :class="{ 'action-button--dark': isDark }" 
+        @click="redirectToRegister"
+      >
+        {{ actionText }}
+      </button>
+    </div>
+  </div>
+</template>
+
+<script setup lang="ts">
+interface Props {
+  title: string
+  price: string
+  period?: string
+  features: string[]
+  actionText: string
+  isDark?: boolean
+}
+
+withDefaults(defineProps<Props>(), {
+  actionText: 'Acceder',
+  isDark: false,
+  period: '',
+})
+
+const redirectToRegister = () => {
+  window.open('https://agreeable-glacier-01474611e.6.azurestaticapps.net/registrar', '_blank')
+}
+</script>
   
   <style scoped>
   .plan-card {
