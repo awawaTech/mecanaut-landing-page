@@ -3,7 +3,7 @@
     <div class="footer-content">
       <div class="logo-container">
         <img src="@/assets/images/logo-white.svg" alt="Macanaut Logo" class="footer-logo" />
-        <h2 class="footer-title">Macanaut</h2>
+        <h2 class="footer-title">Mecanaut</h2>
       </div>
 
       <div class="footer-links">
@@ -28,7 +28,7 @@
 
       <div class="footer-divider"></div>
 
-      <div class="footer-copyright">©2025 Macanaut. Derechos reservados.</div>
+      <div class="footer-copyright">©2025 Mecanaut. Derechos reservados.</div>
     </div>
   </footer>
 </template>

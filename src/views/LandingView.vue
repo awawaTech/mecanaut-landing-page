@@ -16,7 +16,12 @@
     <div id="faq">
       <FAQComponent />
     </div>
-
+    <div id="video">
+      <ProductVideoComponent />
+    </div>
+    <div id="video">
+      <TeamVideoComponent />
+    </div>
     <FooterComponent />
   </div>
 </template>
@@ -29,6 +34,8 @@ import BenefitsComponent from '@/components/landing/BenefitsComponent.vue'
 import PlansComponent from '@/components/landing/PlansComponent.vue'
 import FAQComponent from '@/components/landing/FAQComponent.vue'
 import FooterComponent from '@/components/common/FooterComponent.vue'
+import ProductVideoComponent from '@/components/landing/ProductVideoComponent.vue'
+import TeamVideoComponent from '@/components/landing/TeamVideoComponent.vue'
 </script>
 
 <style scoped>

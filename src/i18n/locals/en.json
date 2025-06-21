@@ -1,4 +1,4 @@
-{
+{  
   "navbar": {
     "home": "Home",
     "product": "Product",
@@ -104,19 +104,23 @@
         "Unlimited assets",
         "Everything in the Professional plan",
         "Spare parts and inventory management",
-        "Users with custom roles (technician, supervisor, admin)",
+        "Unlimited quantity of related users (technician, supervisor, admin)",
         "Priority support"
       ]
     },
-    "cta": "Access"
+    "cta": "Access",
+    "time":{
+      "monthly": "monthly",
+      "yearly": "yearly"
+    }
   },
   "faq": {
     "title": "Have questions?",
     "subtitle": "Here we answer your most frequent questions.",
     "questions": [
       {
-        "question": "What is Macanaut and how does it help me?",
-        "answer": "Macanaut is software that organizes and automates your machinery maintenance. It prevents oversights, reduces failures, and improves control of your operation."
+        "question": "What is Mecanaut and how does it help me?",
+        "answer": "Mecanaut is software that organizes and automates your machinery maintenance. It prevents oversights, reduces failures, and improves control of your operation."
       },
       {
         "question": "Does the free plan have a time limit?",
@@ -133,7 +137,7 @@
     ]
   },
   "footer": {
-    "copyright": "©2025 Macanaut. All rights reserved."
+    "copyright": "©2025 Mecanaut. All rights reserved."
   },
   "statistics": {
     "lessFailures": {
@@ -148,5 +152,9 @@
       "title": "40%",
       "subtitle": "Less downtime"
     }
+  },
+  "video": {
+    "product": "' About the Product '",
+    "team": "' About the Team '"
   }
 }

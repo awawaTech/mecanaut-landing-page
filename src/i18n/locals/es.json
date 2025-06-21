@@ -104,19 +104,23 @@
         "Activos ilimitados",
         "Todo lo del plan profesional",
         "Gestión de repuestos e inventario",
-        "Usuarios con roles personalizados (técnico, supervisor, admin)",
+        "Cantidad ilimitada de usuarios relacionados (técnico, admin)",
         "Soporte prioritario"
       ]
     },
-    "cta": "Acceder"
+    "cta": "Acceder",
+    "time":{
+      "monthly": "mensual",
+      "yearly": "anual"
+    }
   },
   "faq": {
     "title": "¿Tienes dudas?",
     "subtitle": "Aquí resolvemos tus preguntas más frecuentes.",
     "questions": [
       {
-        "question": "¿Qué es Macanaut y cómo me ayuda?",
-        "answer": "Macanaut es un software que organiza y automatiza el mantenimiento de tu maquinaria. Evita olvidos, reduce fallas y mejora el control de tu operación."
+        "question": "¿Qué es Mecanaut y cómo me ayuda?",
+        "answer": "Mecanaut es un software que organiza y automatiza el mantenimiento de tu maquinaria. Evita olvidos, reduce fallas y mejora el control de tu operación."
       },
       {
         "question": "¿El plan gratuito tiene límite de tiempo?",
@@ -133,7 +137,7 @@
     ]
   },
   "footer": {
-    "copyright": "©2025 Macanaut. Derechos reservados."
+    "copyright": "©2025 Mecanaut. Derechos reservados."
   },
   "statistics": {
     "lessFailures": {
@@ -148,5 +152,9 @@
       "title": "40%",
       "subtitle": "Menos tiempo perdido"
     }
+  },
+  "video": {
+    "product": "' Sobre el Producto '",
+    "team": "' Sobre el Equipo '"
   }
 }
